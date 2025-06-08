@@ -202,6 +202,7 @@ int square(int x) {
 riscv32-unknown-elf-gcc -S -O0 -o test_O0.s test.c
 riscv32-unknown-elf-gcc -S -O2 -o test_O2.s test.c
 ```
+---
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/8449172c-6301-4795-aef7-70986f3dcb27" />
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/fb0a986b-0675-4814-8c7f-095cd0a5f17e" />
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/6395d3a9-5e5a-4af6-a186-e887206bd0bb" />
