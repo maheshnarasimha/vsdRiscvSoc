@@ -27,9 +27,11 @@ riscv32-unknown-elf-gcc --version
 riscv32-unknown-elf-objdump --version
 riscv32-unknown-elf-gdb --version
 ```
+output
 
 ---
-![Uploading image.png…]()
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/ca5acbf6-34e3-4bc2-a98e-5edc628b6d71" />
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/d9005642-f942-4ea1-854e-48041b66adcb" />
 
 
 ## 🧾 2. Compiling “Hello, RISC-V!”
@@ -53,7 +55,7 @@ file hello.elf
 ```
 
 ---
-
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/9201089d-a72c-4b13-b11f-4a736fe8842a" />
 ## 🧠 3. C to Assembly
 
 ### 🛠 Generate Assembly
@@ -76,9 +78,10 @@ main:
     addi sp, sp, 16
     ret
 ```
-
+output
 ---
-
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/2d2e3a1a-6a89-4486-bf12-a306797e1fbf" />
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/c2b172f6-19dc-4b50-817f-b8d2e95e7948" />
 ## 🧮 4. Disassembly & Hex Dump
 
 ### 🔍 Disassemble ELF
@@ -94,6 +97,10 @@ riscv32-unknown-elf-objcopy -O ihex hello.elf hello.hex
 ```
 
 ---
+
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/2564d00c-a232-4995-a38c-c568d4d4482a" />
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/1b49ab38-c4af-46e1-8c40-b9cc96d495dd" />
+
 
 ## 🧪 5. RISC-V Register Cheat Sheet
 
@@ -119,6 +126,10 @@ riscv32-unknown-elf-gdb hello1.elf
 ```
 
 ---
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/101b3930-4a90-475a-9e15-74e74dd2ce58" />
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/7b410773-dee5-4a6a-b22f-b15e4ad3e9d6" />
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/0894a675-a9a6-4069-8ea2-43e5cea4d292" />
+<img width="126" alt="image" src="https://github.com/user-attachments/assets/f03bbb1c-c0c5-487a-9f91-cdd5ae946680" />
 
 ## 💻 7. Emulation Using QEMU
 
@@ -174,6 +185,7 @@ Hello RISC-V from UART!
 ```
 
 ---
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/c08cd346-28a3-4100-a482-d3b59fd09009" />
 
 ## ⚙️ 8. GCC Optimization Demo
 
@@ -190,7 +202,6 @@ int square(int x) {
 riscv32-unknown-elf-gcc -S -O0 -o test_O0.s test.c
 riscv32-unknown-elf-gcc -S -O2 -o test_O2.s test.c
 ```
-
-Compare how stack, variables, and code get optimized at `-O2`.
-
-
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/8449172c-6301-4795-aef7-70986f3dcb27" />
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/fb0a986b-0675-4814-8c7f-095cd0a5f17e" />
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/6395d3a9-5e5a-4af6-a186-e887206bd0bb" />
