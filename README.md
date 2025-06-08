@@ -29,6 +29,8 @@ riscv32-unknown-elf-gdb --version
 ```
 
 ---
+![Uploading image.png…]()
+
 
 ## 🧾 2. Compiling “Hello, RISC-V!”
 
