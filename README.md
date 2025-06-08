@@ -191,22 +191,4 @@ riscv32-unknown-elf-gcc -S -O2 -o test_O2.s test.c
 
 Compare how stack, variables, and code get optimized at `-O2`.
 
----
 
-## 📌 Summary
-
-✔️ Toolchain Setup  
-✔️ Compilation & ELF Verification  
-✔️ Assembly Insight  
-✔️ Disassembly & HEX Conversion  
-✔️ GDB Debugging  
-✔️ QEMU Execution  
-✔️ Optimization Understanding  
-
-> Mastering these is the **foundation** of embedded RISC-V systems programming.
-
----
-
-## 👨‍💻 Author
-
-Dara Mahesh Narasimha – [Learning with Mahesh](https://github.com/your-username)
